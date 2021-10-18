@@ -5,7 +5,7 @@
 #num = 7
 
 # Pega o numero digitado e faz o fatorial
-num = int(input("Coloque um numero: "))
+num = int(input("Coloque um numero: \n"))
 
 factorial = 1
 
@@ -17,4 +17,4 @@ elif num == 0:
 else:
    for i in range(1,num + 1):
        factorial = factorial*i
-   print("O Fatorial de",num,"é",factorial)
+   print("O Fatorial de",num,"é ",factorial)
